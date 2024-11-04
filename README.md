@@ -58,6 +58,35 @@ Allows users to connect to a private network from different locations.
 An operating system (OS) is system software that manages computer hardware and software resources, and provides common services for computer programs. Kernel: The core part of the OS that manages system resources. OS Layer: Abstracts hardware resources for higher-level software. Applications: Programs that run on top of the OS. CISC & RISC: Two primary CPU instruction set architectures. Virtual Machine: An emulation of a computer system.
 
 
+**OSI**
+The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and standardize the functions of a networking system. It was developed by the International Organization for Standardization (ISO) in the late 1970s and provides a structured way to approach network architecture
+
+
+• The 7 layers of the OSI (Open Systems Interconnection) model are:
+
+1. _Physical Layer_: Handles the physical connection between devices, including hardware aspects like cables, switches, and signal transmission.
+
+
+2. _Data Link Layer_: Ensures reliable node-to-node data transfer. Manages error detection, error correction, and data framing. Divided into two sublayers: Logical Link Control (LLC) and Media Access Control (MAC).
+
+
+3. _Network Layer_: Responsible for routing and forwarding data. Determines the best physical path for data, handling IP addresses and packet forwarding.
+
+
+4. _Transport Layer_: Ensures end-to-end communication, reliability, and flow control. Manages segmentation, error correction, and retransmission. Protocols like TCP and UDP operate here.
+
+
+5. _Session Layer_: Manages sessions between applications. Establishes, maintains, and terminates connections for ongoing communication between devices.
+
+
+6. _Presentation Layer_: Formats and translates data for the application layer. Handles encryption, decryption, and data compression.
+
+
+7. _Application Layer_: Interfaces with end-user applications. Manages high-level protocols, data exchange, and services like email, file transfer, and web browsing.
+
+
+
+
 **DNS**
 
 Domain Name System, is a fundamental component of the internet that translates human-readable domain names into IP addresses that computers use to identify each other on the network. Without DNS, users would have to remember and enter numerical IP addresses to visit websites, rather than simple and memorable domain names.
